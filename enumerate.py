@@ -4,3 +4,9 @@
 cars = ["Aston" , "Audi", "McLaren "]
 for i, x in enumerate(cars):
     print (x)
+# we can also write in 
+# Accessing items and indexes enumerate()
+
+cars = ["Aston" , "Audi", "McLaren "]
+for x in enumerate(cars):
+    print (x[0], x[1])
